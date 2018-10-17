@@ -1,0 +1,32 @@
+{
+  "name": "gitexerciseprivate",
+  "version": "1.0.0",
+  "description": "Jest for git exercise in class",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "clean": "rm -rf node_modules",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meggyblond/GitExercisePrivate.git"
+  },
+  "keywords": [
+    "Jest"
+  ],
+  "author": "Arni Magnusson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scrum-Bags/GitExerciseInClass/issues"
+  },
+  "homepage": "https://github.com/Scrum-Bags/GitExerciseInClass#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "supertest": "^3.3.0"
+  }
+}
